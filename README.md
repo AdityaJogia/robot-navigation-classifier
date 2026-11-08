@@ -50,14 +50,14 @@ https://github.com/AdityaJogia/robot-navigation-classifier
 
 ```
 robot-navigation-classifier/
-├── app.py                 # Streamlit app (loads saved models, never retrains)
-├── train_models.py        # trains + evaluates the 5 models, writes model/ and test_data.csv
+├── app.py
+├── train_models.py
 ├── requirements.txt
 ├── README.md
-├── test_data.csv          # held-out 20% test split (24 features + Action)
+├── test_data.csv
 ├── data/
-│   ├── sensor_readings_24.data   # raw UCI file
-│   └── Wall-following.names      # UCI documentation
+│   ├── sensor_readings_24.data
+│   └── Wall-following.names
 └── model/
     ├── logistic_regression.joblib
     ├── decision_tree.joblib
@@ -108,11 +108,11 @@ All five models are trained on the same training split and evaluated on the same
 - **Confusion matrix** heatmap and a per-class **classification report**
 - A **Compare all models** tab with a side-by-side table, the best model by MCC, and a chart
 
-## How to run locally
+## How to run
 
 ```bash
 pip install -r requirements.txt
-python train_models.py      # optional: regenerates model/ and test_data.csv
+python train_models.py
 streamlit run app.py
 ```
 
