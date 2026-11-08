@@ -115,7 +115,3 @@ pip install -r requirements.txt
 python train_models.py
 streamlit run app.py
 ```
-
-## Reference
-
-Freire, A. L., Barreto, G. A., Veloso, M., & Varela, A. T. (2009). Wall-Following Robot Navigation Data. UCI Machine Learning Repository. https://archive.ics.uci.edu/dataset/194
