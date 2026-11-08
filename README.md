@@ -2,7 +2,7 @@
 
 ML Assignment 2 · M.Tech (AIML) · BITS Pilani WILP
 
-**Live app:** https://aditya-robot-navigation-classifier.streamlit.app
+**Live app:** https://aditya-robot-navigation-classifier.streamlit.app<br>
 **GitHub repo:** https://github.com/AdityaJogia/robot-navigation-classifier
 
 ---
@@ -49,7 +49,7 @@ bundled with each classifier in a scikit-learn `Pipeline`. The 20% test split is
 https://github.com/AdityaJogia/robot-navigation-classifier
 
 ```
-robot-nav-classifier/
+robot-navigation-classifier/
 ├── app.py                 # Streamlit app (loads saved models, never retrains)
 ├── train_models.py        # trains + evaluates the 5 models, writes model/ and test_data.csv
 ├── requirements.txt
