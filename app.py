@@ -66,7 +66,7 @@ if sample.exists():
                                file_name="test_data.csv", mime="text/csv")
 
 # ---------------- header ----------------
-st.title("Wall-Following Robot — Navigation Move Classifier")
+st.title("Wall-Following Robot: Navigation Move Classifier")
 st.markdown(
     "A SCITOS G5 robot circles a room hugging the wall using **24 ultrasound sensors** "
     "spaced every 15°. Each reading snapshot is labelled with the move it made: "

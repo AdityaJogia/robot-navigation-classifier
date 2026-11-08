@@ -1,4 +1,4 @@
-# Wall-Following Robot Navigation — Move Classifier
+# Wall-Following Robot Navigation: Move Classifier
 
 ML Assignment 2 · M.Tech (AIML) · BITS Pilani WILP
 
@@ -19,12 +19,12 @@ Streamlit app. The app scores the held-out test data using the saved models and 
 
 | Item | Value |
 |---|---|
-| Source | UCI Machine Learning Repository — [Wall-Following Robot Navigation Data (#194)](https://archive.ics.uci.edu/dataset/194/wall+following+robot+navigation+data) |
+| Source | UCI Machine Learning Repository, [Wall-Following Robot Navigation Data (#194)](https://archive.ics.uci.edu/dataset/194/wall+following+robot+navigation+data) |
 | Robot | SCITOS G5, navigating clockwise around a room, sampled at 9 readings/sec |
 | File used | `sensor_readings_24.data` (the full 24-sensor version) |
 | Instances | 5,456 (no duplicates, no missing values) |
-| Features | 24 numeric: `US1`…`US24`, distance in metres from ultrasound sensors placed every 15° around the robot (`US1` = front, 180°; `US13` = back, 0°). Values range about 0.34–5.03 m (about 5 m means nothing in range). |
-| Target | `Action` — 4 classes |
+| Features | 24 numeric: `US1`…`US24`, distance in metres from ultrasound sensors placed every 15° around the robot (`US1` = front, 180°; `US13` = back, 0°). Values range about 0.34 to 5.03 m (about 5 m means nothing in range). |
+| Target | `Action` (4 classes) |
 | Licence | CC BY 4.0 |
 
 Class distribution (imbalanced):
