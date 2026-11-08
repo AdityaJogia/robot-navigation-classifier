@@ -2,7 +2,7 @@
 
 ML Assignment 2 · M.Tech (AIML) · BITS Pilani WILP
 
-**Live app:** <STREAMLIT_APP_URL>
+**Live app:** https://aditya-robot-navigation-classifier.streamlit.app
 **GitHub repo:** https://github.com/AdityaJogia/robot-navigation-classifier
 
 ---
