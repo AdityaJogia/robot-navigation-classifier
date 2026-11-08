@@ -3,7 +3,7 @@
 ML Assignment 2 · M.Tech (AIML) · BITS Pilani WILP
 
 **Live app:** <STREAMLIT_APP_URL>
-**GitHub repo:** https://github.com/AdityaJogia/robot-nav-classifier
+**GitHub repo:** https://github.com/AdityaJogia/robot-navigation-classifier
 
 ---
 
@@ -46,7 +46,7 @@ bundled with each classifier in a scikit-learn `Pipeline`. The 20% test split is
 
 ## c. GitHub repository
 
-https://github.com/AdityaJogia/robot-nav-classifier
+https://github.com/AdityaJogia/robot-navigation-classifier
 
 ```
 robot-nav-classifier/
